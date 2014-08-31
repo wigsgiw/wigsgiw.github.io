@@ -17,16 +17,16 @@ div.blue.circle .header_box { position:absolute; top:200px; left:150px; }
 h4.labels { position:absolute; top:-50px; }
 
 div#main_content {
-	position:absolute;
-	width:550px;
-	top:700px;
-	display:block;
-	right:0;
+  position:absolute;
+  width:550px;
+  top:700px;
+  display:block;
+  right:0;
 }
 
 div#main_content h2 {
-	color:#FFB000;
-	margin-top:70px;
+  color:#FFB000;
+  margin-top:70px;
 }
 
 nav { position:absolute; top:10%; left:20px; text-transform:uppercase; line-height:1.8em; }
