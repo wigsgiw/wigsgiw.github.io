@@ -7,7 +7,7 @@ h2 { font-weight:bold; }
 h3, h4 { font-weight:normal; }
 
 p { font-size:15px; line-height:18px; font-weight:normal; font-family:Arial, sans-serif; }
-a { }
+a { color:#008DF8; font-weight:bold; text-decoration:none; }
 
 div.circle { border-radius:50%; position:absolute; width:580px; height:580px; top:30px; right:-24px; }
 div.blue { background-color:#008DF8; width:550px; height:550px; top:23px; right:15px; }
@@ -36,5 +36,5 @@ div#main_content p {
 }
 
 nav { position:absolute; top:10%; left:20px; text-transform:uppercase; line-height:1.8em; }
-a { display:block; color:#008DF8; font-weight:bold; text-decoration:none; }
+nav a { display:block; }
 a:hover { color:#F71999; }
