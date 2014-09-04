@@ -1,7 +1,7 @@
 html, body { font-family:Helvetica,sans-serif; font-size:1.4em; background-color:#212223; width:100%; height:100%; margin:0 auto; color:#fff; }
 header { margin:0; padding:0; position:relative; }
 h1, h2, h3, h4 { text-transform:uppercase; margin:0; padding:0; }
-h2, h3 { font-size:24px; line-height:30px; font-weight: 100; font: 'Helvetica Light', 'Helvetica', Arial, sans-serif; }
+h2, h3 { font-size:26px; line-height:32px; font-weight: 100; font: 'Helvetica Light', 'Helvetica', Arial, sans-serif; }
 h4 { font-size:13px; line-height:16px; font-weight: 100; font: 'Helvetica Light', 'Helvetica', Arial, sans-serif; }
 h2 { font-weight:bold; }
 h3, h4 { font-weight:normal; }
@@ -9,9 +9,9 @@ h3, h4 { font-weight:normal; }
 p { font-size:15px; line-height:18px; font-weight:normal; font-family:Arial, sans-serif; }
 a { color:#008DF8; font-weight:bold; text-decoration:none; }
 
-div.circle { border-radius:50%; position:absolute; width:580px; height:580px; top:30px; right:-24px; }
-div.blue { background-color:#008DF8; width:550px; height:550px; top:23px; right:15px; }
-div.yellow { background-color:#FFB000; width:580px; height:580px; top:15px; right:-8px; }
+div.circle { border-radius:50%; position:absolute; width:580px; height:580px; top:60px; right:-24px; }
+div.blue { background-color:#008DF8; width:550px; height:550px; top:53px; right:15px; }
+div.yellow { background-color:#FFB000; width:580px; height:580px; top:45px; right:-8px; }
 div.pink { background-color:#F71999; }
 div.blue.circle .header_box { position:absolute; top:200px; left:150px; }
 h4.labels { position:absolute; top:-50px; }
@@ -19,7 +19,6 @@ h4.labels { position:absolute; top:-50px; }
 div#main_content {
   position:relative;
   width:60%;
-  top:700px;
   display:block;
   margin:0 auto 80px;
   font-size:1.2em;
@@ -35,6 +34,8 @@ div#main_content p {
 /*  margin-left:20px;*/
 }
 
-nav { position:absolute; top:10%; left:20px; text-transform:uppercase; line-height:1.8em; }
+nav { position:relative; top:30px; left:40px; text-transform:uppercase; line-height:1.4em; width:240px; }
 nav a { display:block; }
+nav p.small { margin:0; }
+nav p.small a { font-size:11px; font-weight:normal; margin:0; padding:0; display:inline-block; }
 a:hover { color:#F71999; }
