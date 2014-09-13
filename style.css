@@ -20,7 +20,7 @@ div#main_content {
   position:relative;
   width:60%;
   display:block;
-  margin:0 auto 80px;
+  margin:-300px auto 80px 320px;
   font-size:1.2em;
 }
 
