@@ -10,9 +10,9 @@ p { font-size:15px; line-height:18px; font-weight:normal; font-family:Arial, san
 a { color:white; font-weight:bold; text-decoration:none; }
 a:hover { color:#F71999; }
 
-div.circle { border-radius:50%; position:absolute; width:580px; height:580px; top:60px; right:-24px; }
-div.blue { background-color:#008DF8; width:550px; height:550px; top:53px; right:15px; }
-div.yellow { background-color:#FFB000; width:580px; height:580px; top:45px; right:-8px; }
+div.circle { border-radius:50%; position:absolute; width:580px; height:580px; top:60px; right:-30px; }
+div.yellow { background-color:#FFB000; width:580px; height:580px; top:45px; right:-14px; }
+div.blue { background-color:#008DF8; width:550px; height:550px; top:53px; right:9px; }
 div.pink { background-color:#F71999; }
 
 div.blue.circle .header_box { position:absolute; top:160px; left:150px; }
